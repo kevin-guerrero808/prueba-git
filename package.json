@@ -1,0 +1,28 @@
+{
+  "name": "prueba-git",
+  "version": "1.0.0",
+  "description": "un sitio para probar la consola de git y github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevin-guerrero808/prueba-git.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevin-guerrero808/prueba-git/issues"
+  },
+  "homepage": "https://github.com/kevin-guerrero808/prueba-git#readme",
+  "devDependencies": {
+    "browser-sync": "^2.23.5",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-plumber": "^1.2.0",
+    "gulp-refresh": "^1.1.0",
+    "gulp-sass": "^3.1.0"
+  },
+  "keywords": []
+}

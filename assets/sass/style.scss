@@ -1,5 +1,8 @@
 $f-size-titulo-principal: 40px;
 $f-famili-titulo-principal: Arial, sans-serif;
+$background-general: #76A0EB;
+$background-menu: #3A6121;
+$background-menu-hover: lighten($background-menu,10);
 
 *{
   line-height: 1.2;
@@ -7,16 +10,40 @@ $f-famili-titulo-principal: Arial, sans-serif;
 .container-margen{
   max-width: 1200px;
   margin: 0 auto;
-  background-color: #919191;
+  background-color: $background-general;
+}
+.navbar-margen{
+	padding: 20px 60px;
+	background-color: $background-menu;
+	&:after{
+		content: "";
+		display: block;
+		clear: both;
+	}
 }
 .titulo{
 	float: left;
 }
 .nav{
+	max-width: 700px;
+	width: 100%;
+	margin-left: 20px;
 	float: right;
 }
 .nav-ul{
 	margin: 0px;
 	padding: 0px;
 	display: flex;
+	list-style: 0px;
+	justify-content: space-around;
+	list-style: none;
+
+}
+.nav li a{
+	color: #FFF;
+	text-decoration: none;
+	padding: 20px 40px;
+	&:hover{
+		background-color: $background-menu-hover;
+	}
 }
