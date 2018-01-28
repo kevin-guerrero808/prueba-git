@@ -1,6 +1,9 @@
 * {
   line-height: 1.2; }
 
+p {
+  margin: 0px; }
+
 .container-margen {
   max-width: 1200px;
   margin: 0 auto;
@@ -9,10 +12,6 @@
 .navbar-margen {
   padding: 20px 60px;
   background-color: #3A6121; }
-  .navbar-margen:after {
-    content: "";
-    display: block;
-    clear: both; }
 
 .titulo {
   float: left; }
@@ -26,7 +25,6 @@
 .nav-ul {
   margin: 0px;
   padding: 0px;
-  display: flex;
   list-style: 0px;
   justify-content: space-around;
   list-style: none; }
@@ -37,3 +35,19 @@
   padding: 20px 40px; }
   .nav li a:hover {
     background-color: #51872e; }
+
+.section-total .col {
+  width: 33.333%;
+  height: 100px;
+  float: left;
+  margin-left: 5px;
+  box-size: border-box; }
+
+.section-total .col:nth-child(1) {
+  background: pink; }
+
+.section-total .col:nth-child(2) {
+  background: red; }
+
+.section-total .col:nth-child(3) {
+  background: blue; }
