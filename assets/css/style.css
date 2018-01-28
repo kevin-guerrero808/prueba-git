@@ -1,0 +1,23 @@
+* {
+  line-height: 1.2; }
+
+.container-margen {
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #919191; }
+
+.navbar {
+  overflow: hidden; }
+
+.titulo {
+  float: left; }
+
+.nav {
+  float: right; }
+
+.nav-ul {
+  margin: 0px;
+  padding: 0px;
+  display: flex; }
+
+/*# sourceMappingURL=style.css.map */
